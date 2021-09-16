@@ -130,3 +130,18 @@ print("Radd\bApple")
 print("Red\tApple")
 
 #연습문제 3
+num = ("http://naver.com")
+num = (num[7:])
+print(num)
+num = num[:num.index(".")]
+print(num)
+length = (len(num))
+print(length)
+number = (num.count("e"))
+print(number)
+num = (num[:3]) 
+print(num)
+a = ("!")
+print(a)
+print(f"생성된 비밀번호 :{num}{length}{number}{a}")
+
